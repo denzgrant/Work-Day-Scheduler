@@ -4,7 +4,12 @@ body {
   line-height: 1;
 }
 /* adjusting the input size based on screen size */
-@media screen and (max-width: 987px) {
+@media screen and (max-width: 1200px) {
+  .textarea {
+    width: 620px;
+  }
+ }
+@media screen and (max-width: 978px) {
   .textarea {
     width: 460px;
   }
@@ -97,7 +102,7 @@ body {
   text-align: center;
   margin-bottom: 0px;
   border-top: 1px dashed white;
-  width: 6em;
+  width: 5.8em;
 }
 
 .saveBtn i:hover {
