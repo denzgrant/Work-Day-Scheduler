@@ -73,7 +73,7 @@ for (i = 0; i < timeSlots.length; i++) {
 //Storing information from a click of a button 
 $("button").click(function () {
     function storeValue(row, key) {
-        let userInput = $(row).val(); //".textarea.row.9"
+        let userInput = $(row).val(); 
         localStorage.setItem(key, userInput);
     }
     storeValue(".textarea.row.8", "key8")
