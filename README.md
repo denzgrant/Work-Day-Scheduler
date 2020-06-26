@@ -1,5 +1,4 @@
 # Work-Day-Scheduler :memo:
-- U of Arizona Coding Bootcamp Assignment
 - A website that can be used to keep track of workday events 
 - https://denzgrant.github.io/Work-Day-Scheduler/
 
